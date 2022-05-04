@@ -1,0 +1,21 @@
+package com.classes.thiago;
+
+
+public class Principal {
+
+	public static void main(String[] args) {
+       
+		Lista L = new Lista();
+		
+		L.criaLista();  // criando a lista L vazia
+		
+		L.Ins_Inicio("Ana","ADS");
+		L.Ins_Inicio("Joao", "ADS");
+		L.Listagem();
+		L.Ins_Inicio("Bia","ADS");
+		L.Listagem();
+		L.Ins_Inicio("Maria", "ADS");
+		L.Listagem();	
+	}
+
+}

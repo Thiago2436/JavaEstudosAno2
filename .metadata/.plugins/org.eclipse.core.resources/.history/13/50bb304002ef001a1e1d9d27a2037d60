@@ -1,0 +1,43 @@
+package com.classes.thiago;
+
+
+public class Lista {
+
+	public No Inicio;
+	
+	public void criaLista() {
+		Inicio = null;
+	}
+	
+	public void Ins_Inicio(String n, String c) {
+		
+		No p = new No();
+		
+		p.setNome(n);
+		p.setCurso(c);
+		p.setProx(Inicio);
+		Inicio = p;
+	}
+	
+	public void Listagem() {
+		
+		No p = Inicio;
+		
+		while (p!=null) {
+			System.out.print(p.getNome()+"-"+p.getCurso()+"-->");
+			p = p.getProx();
+		}
+		System.out.println("null");
+		
+	}
+	
+}
+
+
+
+
+
+
+
+
+

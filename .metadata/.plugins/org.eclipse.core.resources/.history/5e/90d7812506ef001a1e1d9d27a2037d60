@@ -1,0 +1,47 @@
+package com.classes.thiago;
+
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+       
+		Lista L = new Lista();
+		Scanner leia = new Scanner(System.in);
+		String nome, curso;
+		int op;
+		L.criaLista();  // criando a lista L vazia
+		do {
+			
+			System.out.println(" \n 1 - Inserir no Inicio \n 2 - Inserir no Fim \n 3 - Listar \n 4- Sair");
+			System.out.println(" Digite a Opção");
+			op = leia.nextInt();
+			switch(op) {
+				
+			case 1: System.out.println("Digite o nome");
+			nome = leia.next();
+			System.out.println( " Digite o curso : ");
+			curso = leia.next();
+			L.Ins_Inicio(nome, curso);
+			break;
+			
+			case 2: System.out.println("Digite o nome");
+			nome = leia.next();
+			System.out.println( " Digite o curso : ");
+			curso = leia.next();
+			L.Ins_Fim(nome, curso);
+			break;
+			
+			case 3: 
+				System.out.println(" Listagem");
+				L.Listagem();
+				break;
+			case 4:
+				break;
+			}
+			
+		}while(op !=0);
+					
+	}
+
+}

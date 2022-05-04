@@ -1,0 +1,18 @@
+package listastring;
+/*Faça um programa que inicialmente leia um vetor com 5 
+nomes e depois coloque-os em ordem alfabética.*/
+
+public class exercicio9 {
+
+	public static void main(String[] args) {
+		String Lista[] = new String [5], aux="";
+		Scanner read = new Scanner(System.in);
+		int i,j;
+		for
+		
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

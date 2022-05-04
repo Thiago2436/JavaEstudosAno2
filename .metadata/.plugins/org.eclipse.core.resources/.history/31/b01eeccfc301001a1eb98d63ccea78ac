@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class matriz1 {
+
+	public static void main(String[] args) {
+		Scanner read = new Scanner (System.in);
+		int A[][]= new int [5][5],i,j;
+		for (i=0;i<5;i++) {
+			for(j=0; j<5; j++) {
+				A[i][j] = read.nextInt();
+				}
+			System.out.println("Diagonal");
+			for(i=0;i<5;i++) {
+				for(j=0;j<5;i++) {
+					if( i == j)
+						System.out.println(""+A[i][j]);
+				}
+			}
+					
+		}
+		
+		read.close();
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

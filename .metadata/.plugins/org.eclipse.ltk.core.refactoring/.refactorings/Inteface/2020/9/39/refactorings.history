@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Login&apos; to &apos;LoginTela1&apos;&#x0A;- Original project: &apos;Inteface&apos;&#x0A;- Original element: &apos;Login&apos;&#x0A;- Renamed element: &apos;LoginTela1&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Login&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Login.java[Login" matchStrategy="1" name="LoginTela1" qualified="false" references="true" similarDeclarations="false" stamp="1600635550881" textual="false" version="1.0"/>
+</session>
